@@ -1,3 +1,8 @@
+#: Title : PQC and OpenSSH
+#: Author : "Caio Abreu Ferreira" <abreuferr_gmail.com>
+#: Description : Post-Quantum Cryptography and OpenSSH
+#: Options : 
+
 #############################################
 #
 # doc
