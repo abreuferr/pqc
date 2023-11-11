@@ -68,3 +68,5 @@ $ cd openssh
 $ sudo ./oqs-scripts/build_openssh.sh
 
 $ ./oqs-test/run_tests.sh
+
+$ sed -i 's/ListenAddress/#ListenAddress/g' regress/sshd_config
