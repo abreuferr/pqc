@@ -29,7 +29,7 @@ $ sudo apt -y upgrade
 
 $ sudo apt install astyle cmake gcc ninja-build libssl-dev python3-pytest python3-pytest-xdist unzip xsltproc doxygen graphviz python3-yaml valgrind
 
-$ sudo apt -y install autoconf automake cmake gcc git libtool libssl-dev make ninja-build zlib1g-dev
+$ sudo apt -y install autoconf automake git libtool make zlib1g-dev
 
 #############################################
 #
