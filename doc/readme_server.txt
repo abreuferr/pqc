@@ -27,9 +27,11 @@ $ sudo apt update
 
 $ sudo apt -y upgrade
 
-$ sudo apt install astyle cmake gcc ninja-build libssl-dev python3-pytest python3-pytest-xdist unzip xsltproc doxygen graphviz python3-yaml valgrind
+$ sudo apt install autoconf automake cmake gcc libtool libssl-dev make ninja-build zlib1g-dev
 
-$ sudo apt -y install autoconf automake git libtool make zlib1g-dev
+$ sudo groupadd sshd
+
+$ sudo useradd -g sshd -c 'sshd privsep' -d /var/empty -s /bin/false sshd
 
 #############################################
 #
@@ -54,12 +56,6 @@ $ sudo ldconfig
 # openssh
 #
 #############################################
-
-$ sudo vi /etc/group
-    sshd:x:74:
-     
-$ sudo vi /etc/passwd
-    sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
 
 $ git clone --depth 1 --branch OQS-v8 https://github.com/open-quantum-safe/openssh.git
 
