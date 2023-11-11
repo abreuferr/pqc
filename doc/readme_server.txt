@@ -1,4 +1,4 @@
-#: Title : PQC and OpenSSH
+#: Title : PQC and OpenSSH - Remote Server
 #: Author : "Caio Abreu Ferreira" <abreuferr_gmail.com>
 #: Description : Post-Quantum Cryptography and OpenSSH
 #: Options : 
