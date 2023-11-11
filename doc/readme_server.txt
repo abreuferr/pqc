@@ -61,3 +61,5 @@ $ git clone --depth 1 --branch OQS-v8 https://github.com/open-quantum-safe/opens
 $ cd openssh
 
 $ sudo ./oqs-scripts/build_openssh.sh
+
+$ ./oqs-test/run_tests.sh
